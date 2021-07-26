@@ -10,64 +10,13 @@
                 Blockchain.</a></h1>
     </div>
 </div>
-{% endblock content %}
+{% endblock header %}
 
 {% block content %}
 
-<section class="ui vertical stripe">
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
-    <p>Test 123</p>
+{% for post in section.pages %}
+<section class="ui container">
+    {{ post.content | safe }}
 </section>
+{% endfor %}
 {% endblock content %}

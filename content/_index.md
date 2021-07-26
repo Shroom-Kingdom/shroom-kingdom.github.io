@@ -1,5 +1,6 @@
 +++
 title = "About"
 description = "About Shroom Kingdom."
-page_template = "categories/page.html"
+sort_by = "weight"
+page_template = "page.html"
 +++
