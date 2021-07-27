@@ -108,7 +108,24 @@
     </style>
 
     <script>
+        window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }
+
+        function createPlausibleLinkAction(a, link, action) {
+            const href = a.getAttribute('href');
+            if (href === link) {
+                a.addEventListener('click', () => {
+                    plausible(action);
+                }, { once: true });
+            }
+        }
+
         window.onload = function () {
+            document.querySelectorAll('a[href]').forEach(a => {
+                createPlausibleLinkAction(a, 'https://discord.gg/SPZsgSe', 'Discord');
+                createPlausibleLinkAction(a, 'https://twitter.com/shrm_kingdom', 'Twitter');
+                createPlausibleLinkAction(a, 'https://github.com/Shroom-Kingdom', 'GitHub');
+            });
+
             const intersect = document.querySelector('#intersect-observe');
             const menu = document.querySelector('#main-menu');
 
