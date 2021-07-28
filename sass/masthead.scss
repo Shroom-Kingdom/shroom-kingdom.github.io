@@ -1,0 +1,73 @@
+@import "breakpoints";
+
+$image-margin-xs: 2rem;
+$image-margin-sm: 4rem;
+$image-margin-md: 6rem;
+$image-margin-lg: 10rem;
+
+.text.container {
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  max-width: 700px !important;
+  line-height: 1.5;
+}
+
+.masthead {
+  position: relative;
+  padding: 2rem 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("images/shroom-kingdom.png");
+    background-size: cover;
+    z-index: -1;
+    left: 0;
+    right: 0;
+
+    margin: (-$image-margin-lg) 0;
+    height: calc(100% + #{$image-margin-lg} - 2rem);
+    @media screen and (max-width: $breakpoint-md) {
+      margin: (-$image-margin-md) 0;
+      height: calc(100% + #{$image-margin-md} - 2rem);
+    }
+    @media screen and (max-width: $breakpoint-sm) {
+      margin: (-$image-margin-sm) 0;
+      height: calc(100% + #{$image-margin-sm} - 2rem);
+    }
+    @media screen and (max-width: $breakpoint-xs) {
+      margin: (-$image-margin-xs) 0;
+      height: calc(100% + #{$image-margin-xs} - 2rem);
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem !important;
+    width: auto;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  a {
+    color: #bddcfb;
+    text-decoration: none;
+  }
+
+  h1.header {
+    color: #fff;
+    font-size: 2em;
+    border: none;
+    margin: 2rem 0 1rem;
+    padding: 0 0;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+  }
+}

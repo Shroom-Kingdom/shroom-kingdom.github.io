@@ -1,0 +1,52 @@
+.menu {
+  display: flex;
+  border: 0 solid transparent;
+  border-radius: 0.3rem;
+  background: #1b1c1d;
+  box-shadow: none;
+
+  &.vertical {
+    flex-direction: column;
+  }
+
+  &:not(.vertical) > *:not(:last-child) {
+    border-right: 1px solid rgb(62, 63, 63);
+  }
+
+  &.vertical > *:not(:last-child) {
+    border-bottom: 1px solid rgb(62, 63, 63);
+  }
+}
+
+.item {
+  cursor: pointer;
+  padding: 0.9rem 1.2rem;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+  position: relative;
+
+  vertical-align: middle;
+  line-height: 1;
+  text-decoration: none;
+  flex: 0 0 auto;
+  user-select: none;
+  background: 0 0;
+  text-transform: none;
+
+  &:not(:hover) {
+    background: 0 0;
+  }
+  &:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  img {
+    width: 2rem;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+}
