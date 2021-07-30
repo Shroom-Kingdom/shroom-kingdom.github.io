@@ -2,7 +2,7 @@
 weight = 0
 +++
 
-Shroom Kingdom is an upcoming play2earn video game built with web technologies running on the NEAR Protocol Blockchain.
+Shroom Kingdom is an upcoming play-to-earn video game built with web technologies running on the NEAR Protocol Blockchain.
 
 You can play with your favorite plumber brothers. Build your own levels or play levels from others. Every level built on Shroom Kingdom is stored on the blockchain as an NFT.
 

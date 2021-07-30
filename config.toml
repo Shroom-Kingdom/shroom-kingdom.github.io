@@ -1,6 +1,6 @@
 base_url = "https://shroomkingdom.net"
 title = "Shroom Kingdom"
-description = "Shroom Kingdom is an upcoming play2earn video game built with web technologies running on the NEAR Blockchain."
+description = "Shroom Kingdom is an upcoming play-to-earn earn video game built with web technologies running on the NEAR Blockchain."
 default_language = "en"
 # theme = ""
 output_dir = "public"
@@ -17,6 +17,8 @@ external_links_target_blank = true
 external_links_no_referrer = true
 
 [extra]
+keywords = "shroom, mushroom, kingdom, super, mario, blockchain, gaming, playtoearn, play2earn, play, earn, near, protocol, nearprotocol"
+
 [extra.team]
 [extra.team.0]
 name = "Mario Reder"
