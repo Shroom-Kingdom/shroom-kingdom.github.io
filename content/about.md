@@ -18,5 +18,3 @@ We’re in a very early phase of development, but you can already check out [our
 Shroom Kingdom is the successor of the project [SMMDB](https://smmdb.net).
 SMMDB is a cross console/emulator sharing platform for Super Mario Maker 1/2 levels.
 Eventually it is possible to reuse uploaded levels and bring them to the blockchain.
-
-[You can join our Discord here](https://discord.gg/SPZsgSe)

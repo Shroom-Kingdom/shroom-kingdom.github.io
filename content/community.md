@@ -1,6 +1,18 @@
 +++
 weight = 10
-draft = true
+
+[extra]
+[extra.cards]
+[extra.cards.'Twitter']
+icon = "images/twitter.svg"
+url = "https://twitter.com/shrm_kingdom"
+[extra.cards.'Discord']
+icon = "images/discord.svg"
+url = "https://discord.gg/SPZsgSe"
+[extra.cards.'Github']
+icon = "images/github.png"
+iconclass = "bright"
+url = "https://github.com/Shroom-Kingdom"
 +++
 
-# Community
+# Join the Community

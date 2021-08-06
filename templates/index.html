@@ -5,6 +5,24 @@
 {% for post in section.pages %}
 <section>
     {{ post.content | safe }}
+
+    {% if post.extra.cards %}
+    <div class="card-wrapper">
+        {% for key, value in post.extra.cards %}
+        <div class="card">
+            {% if value.iconclass %}
+            {% set iconclass = "icon " ~ value.iconclass -%}
+            {% else %}
+            {% set iconclass = "icon" -%}
+            {% endif %}
+            <a href="{{value.url}}" target="_blank">
+                <img class="{{iconclass}}" alt="{{key}}" src="{{value.icon}}" />
+                <h3>{{ key }}</h3>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 </section>
 {% endfor %}
 {% endblock content %}
