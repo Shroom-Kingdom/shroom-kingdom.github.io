@@ -15,4 +15,4 @@ iconclass = "bright"
 url = "https://github.com/Shroom-Kingdom"
 +++
 
-# Join the Community
+<h1 id="community">Join the Community</h1>
