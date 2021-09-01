@@ -32,20 +32,20 @@
         </div>
         <div class="member">
             <h3>{{ key }}</h3>
-            <div>{{ value.description }}</div>
 
             <div class="member-links">
                 {% if value.twitter %}
-                <a href="https://twitter.com/{{value.twitter}}" target="_blank">
+                <a class="icon" href="https://twitter.com/{{value.twitter}}" target="_blank">
                     <img class="icon" alt="Twitter {{key}}" src="images/twitter.svg" />
                 </a>
                 {% endif %}
                 {% if value.github %}
-                <a href="https://github.com/{{value.twitter}}" target="_blank">
+                <a class="icon" href="https://github.com/{{value.twitter}}" target="_blank">
                     <img class="icon bright" alt="Github {{key}}" src="images/github.png" />
                 </a>
                 {% endif %}
             </div>
+            <div>{{ value.description | safe }}</div>
         </div>
         {% endfor %}
     </div>
