@@ -1,0 +1,20 @@
+.blog {
+  &-title {
+    color: white;
+
+    > * {
+      margin-top: 3rem;
+    }
+  }
+
+  &-rss {
+    svg {
+      height: 1rem;
+    }
+  }
+
+  &-date {
+    font-size: 0.8rem;
+    color: lightgray;
+  }
+}

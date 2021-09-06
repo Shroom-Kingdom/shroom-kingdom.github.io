@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+
+  {% set rss_icon = load_data(path="images/rss.svg") %}
+  <p>Hey!</p>
+
+  <p>
+    This is the blog section of Shroom Kingdom.
+    We will occasionally post updates about our project.
+    Be sure to subscribe to the <a href="{{ get_url(path='rss.xml',
+    trailing_slash=false)}}" class="blog-rss">{{ rss_icon | safe }} feed</a>.
+  </p>
+
+  {% for post in section.pages %}
+
+  <hr />
+  <a href="{{ post.permalink }}" class="blog-title">
+    <h2>{{ post.title }}</h2>
+  </a>
+  <div class="blog-date">Published: {{ post.date }}</div>
+  {{ post.summary | safe }}
+  <a href="{{ post.permalink }}">Continue Reading</a>
+
+  {% endfor %}
+
+</section>
+{% endblock content %}

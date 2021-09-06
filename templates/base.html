@@ -6,16 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <base href="/">
+
     {% block seo %}
     <title>{{ config.title }}</title>
 
     <meta property="og:title" content="{{ config.title }}">
     <meta name="description" content="{{ config.description }}">
     <meta property="og:description" content="{{ config.description }}">
-    <meta name="keywords" content="{{ config.extra.keywords }}">
+    {% if page.extra.keywords %}
+    {% set keywords = page.extra.keywords ~ "," ~ config.extra.keywords -%}
+    {% else %}
+    {% set keywords = config.extra.keywords -%}
+    {% endif %}
+    <meta name="keywords" content="{{ keywords }}">
     <meta property="og:url" content="{{ get_url(path='/')}}">
     <link rel="canonical" href="{{ get_url(path='/')}}">
     {% endblock seo %}
+
+    {% block rss %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path='rss.xml',
+        trailing_slash=false)}}">
+    {% endblock %}
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -51,7 +63,7 @@
 
         body {
             margin: 0;
-            padding: 0;
+            padding: 0 0 2rem 0;
             overflow-x: hidden;
             min-width: 320px;
             background-color: rgb(20, 2, 61);
@@ -144,6 +156,7 @@
         <a class="item" href="#">Home</a>
         <a class="item" href="/#community">Community</a>
         <a class="item" href="/#team">Team</a>
+        <a class="item" href="/blog">Blog</a>
         <a class="item" href="//whitepaper.shroomkingdom.net" target="_blank">Whitepaper</a>
     </div>
 
@@ -177,6 +190,7 @@
                 </a>
                 <a class="item" href="/#community">Community</a>
                 <a class="item" href="/#team">Team</a>
+                <a class="item" href="/blog">Blog</a>
                 <a class="item" href="//whitepaper.shroomkingdom.net" target="_blank">Whitepaper</a>
             </div>
             <div class="right">

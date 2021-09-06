@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+  <h2>{{ page.title }}</h2>
+  <div class="blog-date">Published: {{ page.date }}</div>
+
+  {{ page.content | safe}}
+</section>
+
+{% endblock content %}

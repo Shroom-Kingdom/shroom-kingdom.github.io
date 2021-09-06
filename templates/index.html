@@ -2,9 +2,8 @@
 
 {% block content %}
 
-{% for section_name in section.subsections %}
+{% for section in section.pages %}
 <section>
-    {% set section = get_section(path=section_name) %}
     {{ section.content | safe }}
 
     {% if section.extra.cards %}
