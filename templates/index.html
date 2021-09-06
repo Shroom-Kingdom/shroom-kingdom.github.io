@@ -2,13 +2,14 @@
 
 {% block content %}
 
-{% for post in section.pages %}
+{% for section_name in section.subsections %}
 <section>
-    {{ post.content | safe }}
+    {% set section = get_section(path=section_name) %}
+    {{ section.content | safe }}
 
-    {% if post.extra.cards %}
+    {% if section.extra.cards %}
     <div class="card-wrapper">
-        {% for key, value in post.extra.cards %}
+        {% for key, value in section.extra.cards %}
         <div class="card">
             {% if value.iconclass %}
             {% set iconclass = "icon " ~ value.iconclass -%}
@@ -24,9 +25,9 @@
     </div>
     {% endif %}
 
-    {% if post.extra.member %}
+    {% if section.extra.member %}
     <div class="member-wrapper">
-        {% for key, value in post.extra.member %}
+        {% for key, value in section.extra.member %}
         <div class="member-img">
             <img class="icon" alt="{{key}}" src="{{value.img}}" />
         </div>

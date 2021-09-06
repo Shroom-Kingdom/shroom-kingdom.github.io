@@ -12,7 +12,7 @@ There won’t be an upper limit of $SHRM tokens. If people play the game, they w
 
 You can either extract existing assets from your Super Mario Maker 2 copy or use compatible game mod files from e.g. [Gamebanana](https://gamebanana.com/).
 All file formats have been reverse engineered and will get extracted from your copy with a few button clicks.
-The resulting file will be a bundle of all assets required to play, which you can then load into our web-based game.
+It is not mandatory to use original assets, since once the game launches a good default of assets will be provided.
 
 We’re in a very early phase of development, but you can already check out [our GitHub](https://github.com/Shroom-Kingdom).
 Shroom Kingdom is the successor of the project [SMMDB](https://smmdb.net).
