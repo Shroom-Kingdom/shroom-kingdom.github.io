@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Shroom Kingdom</title>
+	<subtitle>Shroom Kingdom is an upcoming play-to-earn earn video game built with web technologies running on the NEAR Blockchain.</subtitle>
+	<link href="https://shroomkingdom.net/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://shroomkingdom.net"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-09-06T00:00:00+00:00</updated>
+	<id>https://shroomkingdom.net/atom.xml</id>
+	<entry xml:lang="en">
+		<title>NFT Airdrop announcement</title>
+		<published>2021-09-06T00:00:00+00:00</published>
+		<updated>2021-09-06T00:00:00+00:00</updated>
+		<link href="https://shroomkingdom.net/blog/nft-airdrop/" type="text/html"/>
+		<id>https://shroomkingdom.net/blog/nft-airdrop/</id>
+		<content type="html">&lt;p&gt;Hey all!&lt;&#x2F;p&gt;
+&lt;p&gt;We&#x27;ve been thinking a lot in our DAO (btw you can join us. Just visit our &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;SPZsgSe&quot;&gt;Discord server&lt;&#x2F;a&gt;)
+how we should make early advertisement as good as possible.
+Many blockchain projects, who also distribute their own token, launch an Airdrop as a cheap way to do so,
+but Airdrops also attract many people just for the profits.
+Twitter, Telegram and the web are full of bots and crawlers who are looking for this &amp;quot;free money&amp;quot; to get as many people
+on board as possible.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;From a projects perspective you don&#x27;t want to attract these people.
+Instead you want to incentivise to get involved with your project.
+For this reason NEAR Protocol also regularly launches Hackathons, which attract developers who want to build on their platform.
+A Smart Contract capable blockchain is only as good as its projects.
+If you fail to onboard developers, your project might fail overall in the end.&lt;&#x2F;p&gt;
+&lt;p&gt;Airdrops generally launch before an Initial DEX Offering (IDO), so that enough people know about the project and what it is about.
+We see an Airdrop as a good opportunity to also find people, who actually want to get involved with us,
+so we will launch an Airdrop with a twist.
+We will also launch an IDO on &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;skyward.finance&#x2F;&quot;&gt;Skyward Finance&lt;&#x2F;a&gt;,
+because we think that they found a way to launch an IDO as fair as possible.
+If you don&#x27;t yet know much about the SHRM token, you should read about our &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;whitepaper.shroomkingdom.net&#x2F;6_Token_Economics.html&quot;&gt;Token Economics&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Our Airdrop is heavily inspired by &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;kanaria.rmrk.app&#x2F;&quot;&gt;RMRK&#x27;s Kanaria NFT launchpad&lt;&#x2F;a&gt;.
+Instead of giving free tokens, we want people to get their hands dirty and help us doing the advertisement.
+The more people you bring to our platform, the more you get rewarded.
+For this purpose we will launch a special kind of founder NFT, which will only be available during the
+initial Airdrop launch phase of the project.
+Once this time is over, there won&#x27;t be any way to acquire new NFTs of this kind ever again,
+but the founder NFT will also be tradeable at some point.&lt;&#x2F;p&gt;
+&lt;p&gt;To get the founder NFT, you will have to do several tasks:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;answer some quiz questions&lt;&#x2F;li&gt;
+&lt;li&gt;connect your &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;wallet.near.org&#x2F;&quot;&gt;NEAR wallet&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;follow us on &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;twitter.com&#x2F;shrm_kingdom&quot;&gt;Twitter&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;retweet our future pinned post on Twitter&lt;&#x2F;li&gt;
+&lt;li&gt;like our future pinned post on Twitter&lt;&#x2F;li&gt;
+&lt;li&gt;join our &lt;a href=&quot;(https:&#x2F;&#x2F;discord.gg&#x2F;SPZsgSe)&quot;&gt;Discord server&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;All these requirements will automatically be checked by our Airdrop application, that we still have to develop.
+We are also working together with artists to give the NFT a nice looking.&lt;&#x2F;p&gt;
+&lt;p&gt;Once the NFT has been acquired, you will get a referral link that you can share.
+Everytime some else acquires an NFT as well, you will get a referral point.
+We also make sure, that you keep following and retweeting the pinned post, otherwise you will lose eligibility
+to get referral points.
+The NFT will have super powers which will unlock the more referral points you acquired.
+We have not yet 100% decided how they will look like, but to give you a general idea here are some thoughts:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;0 referral points: you will unlock the &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;near-chan.github.io&#x2F;&quot;&gt;NEAR chan&lt;&#x2F;a&gt; in-game skin once the game launches on mainnet&lt;&#x2F;li&gt;
+&lt;li&gt;1 referral point: you will get some SHRM token&lt;&#x2F;li&gt;
+&lt;li&gt;5 referral points: you will get x% lifetime bonus for all acquired SHRM tokens within the game&lt;&#x2F;li&gt;
+&lt;li&gt;...?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Remember that you will only have this opportunity once in your life during the NFT Airdrop launch event.
+Since we still need to work on the Airdrop application and are looking for artists to help us,
+we cannot yet announce the date for this event, but we will keep you updated, so make sure to follow our social media accounts!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
