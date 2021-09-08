@@ -21,9 +21,12 @@
     {% if task.image %}
     <img src="{{page.path}}{{task.image}}" />
     {% endif %}
+    <p></p>
     <div><b>Due Date:</b> {{ task.due_date }}</div>
     <div><b>Budget:</b> {{ task.budget }}</div>
-    <div><b>Assignee:</b> {{ task.due_date }}</div>
+    {% if task.assignee %}
+    <div><b>Assignee:</b> {{ task.assignee }}</div>
+    {% endif %}
   </section>
   {% endfor %}
 
