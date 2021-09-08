@@ -17,7 +17,7 @@ tasks = [
   "design the NFT art"
 ]
 due_date = "2021-09-30"
-budget = "150 SHRM + x NEAR (from OWS)"
+budget = "120 SHRM + x NEAR (from OWS)"
 assignee = ""
 completed = false
 
@@ -37,7 +37,7 @@ tasks = [
 ]
 image = "m1-mdl.png"
 due_date = "2021-12-31"
-budget = "200 SHRM + x NEAR (from OWS)"
+budget = "150 SHRM + x NEAR (from OWS)"
 assignee = ""
 completed = false
 
@@ -57,7 +57,7 @@ tasks = [
 ]
 image = "m3-mdl.png"
 due_date = "2021-12-31"
-budget = "250 SHRM + x NEAR (from OWS)"
+budget = "175 SHRM + x NEAR (from OWS)"
 assignee = ""
 completed = false
 
@@ -77,7 +77,7 @@ tasks = [
 ]
 image = "mw-mdl.png"
 due_date = "2021-12-31"
-budget = "300 SHRM + x NEAR (from OWS)"
+budget = "200 SHRM + x NEAR (from OWS)"
 assignee = ""
 completed = false
 +++
