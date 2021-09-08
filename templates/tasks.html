@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+
+  <p>
+    This section covers open and completed tasks.
+    Tasks will be listed on Open Web Sandbox and users can earn NEAR and SHRM token by completing them.
+  </p>
+
+  {% for task in section.pages %}
+
+  <hr />
+  <a href="{{ task.permalink }}" class="blog-title">
+    <h2>{{ task.title }}</h2>
+  </a>
+  <div class="blog-date">Published: {{ task.date }}</div>
+  {{ task.summary | safe }}
+
+  {% endfor %}
+
+</section>
+{% endblock content %}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+  <h2>{{ page.title }}</h2>
+  <div class="blog-date">Published: {{ page.date }}</div>
+
+  <div>{{ page.content | safe }}</div>
+
+  {% for _, task in page.extra.tasks %}
+  <section class="task">
+    <h3>{{ task.title }}</h3>
+    <p>{{ task.description }}</p>
+    <span><b>Tasks:</b></span>
+    <ul>
+      {% for li in task.tasks %}
+      <li> {{ li }}</li>
+      {% endfor %}
+    </ul>
+    {% if task.image %}
+    <img src="{{page.path}}{{task.image}}" />
+    {% endif %}
+    <div><b>Due Date:</b> {{ task.due_date }}</div>
+    <div><b>Budget:</b> {{ task.budget }}</div>
+    <div><b>Assignee:</b> {{ task.due_date }}</div>
+  </section>
+  {% endfor %}
+
+  {% if page.extra.completed and page.extra.completed == true %}
+  {% endif %}
+</section>
+
+{% endblock content %}
