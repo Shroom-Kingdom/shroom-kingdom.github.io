@@ -6,6 +6,8 @@
   <p>
     This section covers open and completed tasks.
     Tasks will be listed on Open Web Sandbox and users can earn NEAR and SHRM token by completing them.
+    If you want to apply for a task,
+    you need to visit the <a href="https://discord.com/invite/457bWnJqkQ" target="_blank">OWS Discord server</a>.
   </p>
 
   {% for task in section.pages %}
@@ -15,7 +17,9 @@
     <h2>{{ task.title }}</h2>
   </a>
   <div class="blog-date">Published: {{ task.date }}</div>
-  {{ task.summary | safe }}
+  <div>{{ task.content | safe }}</div>
+
+  <div><b>Task count:</b> {{ task.extra.tasks | length }}</div>
 
   {% endfor %}
 

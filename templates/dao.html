@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+  {{ section.content | safe }}
+</section>
+
+<div class="dao-links">
+  <a href="/tasks">Tasks 🔗</a>
+  <a href="/positions">Open Positions 🔗</a>
+</div>
+
+{% endblock content %}
