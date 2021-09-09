@@ -39,7 +39,9 @@ There are three different game modes in Shroom Kingdom. \
 The art style of this one is based on Super Mario Bros. \
 The NEAR chan character needs several sprites, that should match the art style. \
 We will provide you with more information about the exact sizes etc. \
-To give you a general idea how it should look like, we added a preview of the Mario model. \
+To give you a general idea how it should look like, we added a preview of a model. \
+The resulting sprites for the NEAR chan character need to have the same \
+hitbox as all other characters, so all non-transparent pixels should overlap with the existing models ~80%. \
 There's a total of 138 sprites involved, but some of them are just recolors. \
 The sizes of the sprites are 16x16 for small versions and 16x32 for large versions.
 """
@@ -60,7 +62,9 @@ There are three different game modes in Shroom Kingdom. \
 The art style of this one is based on Super Mario Bros 3. \
 The NEAR chan character needs several sprites, that should match the art style. \
 We will provide you with more information about the exact sizes etc. \
-To give you a general idea how it should look like, we added a preview of the Mario model. \
+To give you a general idea how it should look like, we added a preview of a model. \
+The resulting sprites for the NEAR chan character need to have the same \
+hitbox as all other characters, so all non-transparent pixels should overlap with the existing models ~80%. \
 There's a total of 175 sprites involved, but some of them are just recolors. \
 The sizes of the sprites are 16x16 for small versions and 32x32 for large versions.
 """
@@ -81,7 +85,9 @@ There are three different game modes in Shroom Kingdom. \
 The art style of this one is based on Super Mario World. \
 The NEAR chan character needs several sprites, that should match the art style. \
 We will provide you with more information about the exact sizes etc. \
-To give you a general idea how it should look like, we added a preview of the Mario model. \
+To give you a general idea how it should look like, we added a preview of a model. \
+The resulting sprites for the NEAR chan character need to have the same \
+hitbox as all other characters, so all non-transparent pixels should overlap with the existing models ~80%. \
 There's a total of 234 sprites involved, but some of them are just recolors. \
 The sizes of the sprites are 16x32 for small versions, 32x32 for large versions and 32x48 for cape versions.
 """
