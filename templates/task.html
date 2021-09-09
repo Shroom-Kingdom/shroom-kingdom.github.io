@@ -18,8 +18,14 @@
       <li> {{ li }}</li>
       {% endfor %}
     </ul>
-    {% if task.image %}
-    <img src="{{page.path}}{{task.image}}" />
+    {% if task.images %}
+    {% for image in task.images %}
+    {% if image is starting_with("http") %}
+    <img src="{{image}}" />
+    {% else %}
+    <img src="{{page.path}}{{image}}" />
+    {% endif %}
+    {% endfor %}
     {% endif %}
     <p></p>
     <div><b>Due Date:</b> {{ task.due_date }}</div>
