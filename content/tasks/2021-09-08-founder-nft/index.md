@@ -42,7 +42,7 @@ We will provide you with more information about the exact sizes etc. \
 To give you a general idea how it should look like, we added a preview of a model. \
 The resulting sprites for the NEAR chan character need to have the same \
 hitbox as all other characters, so all non-transparent pixels should overlap with the existing models ~80%. \
-There's a total of 138 sprites involved, but some of them are just recolors. \
+There's a total of 113 sprites involved, but some of them are just recolors. \
 The sizes of the sprites are 16x16 for small versions and 16x32 for large versions.
 """
 tasks = [
