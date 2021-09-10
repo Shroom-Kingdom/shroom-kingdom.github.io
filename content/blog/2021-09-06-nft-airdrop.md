@@ -46,7 +46,7 @@ To get the founder NFT, you will have to do several tasks:
 - follow us on [Twitter](https://twitter.com/shrm_kingdom)
 - retweet our future pinned post on Twitter
 - like our future pinned post on Twitter
-- join our [Discord server]((https://discord.gg/SPZsgSe))
+- join our [Discord server](https://discord.gg/SPZsgSe)
 
 All these requirements will automatically be checked by our Airdrop application, that we still have to develop.
 We are also working together with artists to give the NFT a nice looking.
