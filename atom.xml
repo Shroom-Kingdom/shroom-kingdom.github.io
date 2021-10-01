@@ -5,8 +5,138 @@
 	<link href="https://shroomkingdom.net/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://shroomkingdom.net"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-09-08T00:00:00+00:00</updated>
+	<updated>2021-10-01T00:00:00+00:00</updated>
 	<id>https://shroomkingdom.net/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Shroom Kingdom Roadmap</title>
+		<published>2021-10-01T00:00:00+00:00</published>
+		<updated>2021-10-01T00:00:00+00:00</updated>
+		<link href="https://shroomkingdom.net/blog/roadmap/" type="text/html"/>
+		<id>https://shroomkingdom.net/blog/roadmap/</id>
+		<content type="html">&lt;p&gt;Welcome to the roadmap of the Shroom Kingdom project.
+Our goal is to give you a brief overview on what you can and what you cannot expect me to deliver in the near future and give you a better understanding on what I need help for the most.
+I started this project solely on my own and with the help of the NEAR-Team I got this far already.
+Are you willing to become part of the Shroom-Kingdom family?
+Hit me up with your ideas!&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h2 id=&quot;topics&quot;&gt;Topics&lt;&#x2F;h2&gt;
+&lt;p&gt;A quick look at what needs and needed to be done as a whole:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Deciding on which ecosystem the game is going to be built&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Sharing the idea in this ecosystem and setting up social media accounts&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Connecting with people to build a community that participate in the project&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Deciding on the economics of the token&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Launching the token via DAO community vote&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Creating hype through airdrops and starting to reward early supporters&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Distributing tasks within the community&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Setting up the legal framework for the financial ecosystem&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Launching the token through an IDO&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Creating incentives for people to stick around and be curious about the project&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Creating in-game-design and on-chain art (NFTs)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Developing the actual game&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Creating mechanisms to avoid fraud &#x2F; cheating and other misbehaviours&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;deciding-on-which-ecosystem-the-game-is-going-to-be-built&quot;&gt;Deciding on which ecosystem the game is going to be built&lt;&#x2F;h3&gt;
+&lt;p&gt;Any important aspect of how we wanna build the game is how the ecosystem and with it the amount of community support.
+It&#x27;s way more important than technical aspects of the network, everything can be improved later on when you work with the right people. That&#x27;s why I decided to choose the NEAR ecosystem.
+Its main purpose is to strengthen community and create games with a different approach than conventional games.
+People get supported with a vision and people that are experts in all kinds of field are able to help people from a hobby-developer to a full-time-gaming dev.
+With such a strong community where people use their strengths to each others&#x27; advantage, it&#x27;s way easier to make my vision a reality.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;sharing-the-idea-in-this-ecosystem-and-setting-up-social-media-accounts&quot;&gt;Sharing the idea in this ecosystem and setting up social media accounts&lt;&#x2F;h3&gt;
+&lt;p&gt;One day after I set up my social media accounts, specifically Twitter and Github, I got a very interesting Email from &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;humanguild.io&#x2F;&quot;&gt;Humanguild&lt;&#x2F;a&gt;.
+They were asking me, if I would be interested to talk about my idea with them and how they might be able to help me.
+I am absolutely amazed what great work they are doing in supporting projects that build on NEAR Protocol in such an early phase.
+They give me a lot of trust even though I just started with an idea.
+I think this demonstrates the spirit of Web3 and what great people work in there.
+Humanguild helps me especially with content creation and connecting with the right people.
+Ever since then I learned a lot about the NEAR ecosystem, which would have taken longer without them.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;connecting-with-people-to-build-a-community-that-participate-in-the-project&quot;&gt;Connecting with people to build a community that participate in the project&lt;&#x2F;h3&gt;
+&lt;p&gt;It was time to create a DAO around the game, to find people that are willing to take the risk of spending their time to help me in exchange for a potentially worthless token if the game doesn&#x27;t get any traction. I made my mind up about economic incentives and thought about the first few tasks people could support me with while there was not too much to work with, yet&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;deciding-on-the-economics-of-the-token&quot;&gt;Deciding on the economics of the token&lt;&#x2F;h3&gt;
+&lt;p&gt;This is a work in progress right now.
+I have an overall idea of how I want it to be set up and how tokens are supposed to be distributed within the IDO and amongst DAO-members, but the specifics of the in-game contents are still being discussed.
+We all are open for any form of contribution of ideas of what makes sense and how people can have the most fun and are incentivised to stay.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;launching-the-token-via-dao-community-vote&quot;&gt;Launching the token via DAO community vote&lt;&#x2F;h3&gt;
+&lt;p&gt;We will soon launch our SHRM token via a DAO community vote, using &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;v2.sputnik.fund&#x2F;#&#x2F;shrm.sputnik-dao.near&quot;&gt;SputnikDAO&lt;&#x2F;a&gt;.
+It will be fundamental milestone and if you want to participate, you can contact me on our &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;SPZsgSe&quot;&gt;Discord server&lt;&#x2F;a&gt;.
+You can read more about the SHRM token in &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;whitepaper.shroomkingdom.net&#x2F;&quot;&gt;our whitepaper&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;creating-hype-through-airdrops-and-starting-to-reward-early-supporters&quot;&gt;Creating hype through airdrops and starting to reward early supporters&lt;&#x2F;h3&gt;
+&lt;p&gt;We will launch a token airdrop and I think it is a great idea to support NEAR early adopters.
+I got this idea from the official &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gov.near.org&#x2F;t&#x2F;token-airdrops-from-new-projects-of-near-ecosystem-to-near-early-supporters&#x2F;184&quot;&gt;NEAR forums&lt;&#x2F;a&gt; and I think other projects should do so as well.
+This is why I have been working on a backend to find eligible accounts for an airdrop.
+The backend is based on &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;stats.gallery&#x2F;&quot;&gt;stats.gallery&lt;&#x2F;a&gt;.
+I implemented additional methods for easily querying such accounts and you can directly check below, whether you will be eligible for our upcoming token airdrop.
+The database might still sync with the NEAR indexer and it will take some time until your account shows up.
+You can also check your stats on stats.gallery, since it should be the same.
+Based on the level you have reached, more tokens will be directly dropped to your wallet after we have launched the token and finished all preparations to do so.&lt;&#x2F;p&gt;
+&lt;script&gt;
+  var createdBeforeThreshold = new Date(&#x27;2021-10-01&#x27;);
+  var createdBefore = false;
+  var createdAt = null
+  var stakedOnce = false;
+  var levelReached = false;
+  var level = null;
+  var ok = false;
+  async function onClick() {
+    const { value } = document.querySelector(&#x27;#near-name&#x27;);
+    if (!value) return;
+    const res = await fetch(`https:&#x2F;&#x2F;stats.shroomkingdom.net&#x2F;mainnet&#x2F;score-query?account_id=${value}`);
+    if (!res.ok) return;
+    const json = await res.json();
+    if (json.length === 0) return;
+    const { created_at_block_timestamp, stake, level: levelRes } = json[0];
+    console.log(created_at_block_timestamp, stake, levelRes);
+    if (created_at_block_timestamp) {
+      createdAt = new Date(created_at_block_timestamp &#x2F; 1000000);
+      createdBefore = createdAt.valueOf() &lt;= createdBeforeThreshold;
+    }
+    stakedOnce = stake;
+    levelReached = levelRes &gt;= 3;
+    level = levelRes;
+    ok = createdBefore &amp;&amp; stakedOnce &amp;&amp; levelReached;
+    if (createdBefore) {
+      const inputOk = document.querySelector(&#x27;#check-created&#x27;);
+      inputOk.src = &quot;images&#x2F;check.svg&quot;
+    }
+    if (stakedOnce) {
+      const inputOk = document.querySelector(&#x27;#check-stake&#x27;);
+      inputOk.src = &quot;images&#x2F;check.svg&quot;
+    }
+    if (levelReached) {
+      const inputOk = document.querySelector(&#x27;#check-level&#x27;);
+      inputOk.src = &quot;images&#x2F;check.svg&quot;
+    }
+    if (ok) {
+      const inputOk = document.querySelector(&#x27;#check-ok&#x27;);
+      inputOk.src = &quot;images&#x2F;check.svg&quot;
+    }
+  }
+&lt;&#x2F;script&gt;
+&lt;p&gt;&lt;label&gt;Your NEAR account name: &lt;&#x2F;label&gt;
+&lt;input class=&quot;input&quot; id=&quot;near-name&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;button class=&quot;check primary button&quot; onclick=&quot;onClick()&quot;&gt;
+  &lt;img id=&quot;check-ok&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;
+  Check eligibility
+&lt;&#x2F;button&gt;
+&lt;p&gt;&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-created&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Created before 2021-10-01&lt;&#x2F;label&gt;
+&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-stake&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Has staked at least once (directly or via Metapool)&lt;&#x2F;label&gt;
+&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-level&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Has reached level 3&lt;&#x2F;label&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Additionally to the token airdrop, we are also preparing an NFT airdrop as we explained in our &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;shroomkingdom.net&#x2F;blog&#x2F;nft-airdrop&#x2F;&quot;&gt;previous blog post&lt;&#x2F;a&gt;.
+We are still in preparation phase and are collaborating with artists.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Founder NFT</title>
 		<published>2021-09-08T00:00:00+00:00</published>
