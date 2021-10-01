@@ -133,6 +133,14 @@ Based on the level you have reached, more tokens will be directly dropped to you
 &lt;p&gt;&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-created&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Created before 2021-10-01&lt;&#x2F;label&gt;
 &lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-stake&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Has staked at least once (directly or via Metapool)&lt;&#x2F;label&gt;
 &lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-level&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Has reached level 3&lt;&#x2F;label&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;What&#x27;s special about this airdrop is, that you don&#x27;t have to do anything to receive it.
+We will just drop it into your wallet via a DAO vote.
+You just have to make sure to be eligible.
+There are two additional requirements for eligibility, which are:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;it needs to be a named .near account&lt;&#x2F;li&gt;
+&lt;li&gt;it needs to be a top level account, not a sub account like contract.name.near, because they are commonly used for deploying contracts&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 &lt;p&gt;Additionally to the token airdrop, we are also preparing an NFT airdrop as we explained in our &lt;a rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;shroomkingdom.net&#x2F;blog&#x2F;nft-airdrop&#x2F;&quot;&gt;previous blog post&lt;&#x2F;a&gt;.
 We are still in preparation phase and are collaborating with artists.&lt;&#x2F;p&gt;
 </content>
