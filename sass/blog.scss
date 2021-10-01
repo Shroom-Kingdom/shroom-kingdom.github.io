@@ -18,3 +18,21 @@
     color: lightgray;
   }
 }
+
+.check {
+  display: flex !important;
+  align-items: center !important;
+
+  img {
+    height: 30px;
+  }
+}
+
+.label {
+  display: flex !important;
+  align-items: center !important;
+
+  img {
+    height: 30px;
+  }
+}
