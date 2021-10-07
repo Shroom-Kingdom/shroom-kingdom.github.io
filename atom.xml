@@ -89,15 +89,32 @@ Based on the level you have reached, more tokens will be directly dropped to you
   var levelReached = false;
   var level = null;
   var ok = false;
+  var syncing = false;
   async function onClick() {
+    if (syncing) return;
     const { value } = document.querySelector(&#x27;#near-name&#x27;);
     if (!value) return;
+
+    const inputOk = document.querySelector(&#x27;#check-ok&#x27;);
+    const inputCreated = document.querySelector(&#x27;#check-created&#x27;);
+    const inputStaked = document.querySelector(&#x27;#check-stake&#x27;);
+    const inputLevel = document.querySelector(&#x27;#check-level&#x27;);
+
+    inputOk.src = &quot;images&#x2F;sync.svg&quot;
+    syncing = true;
     const res = await fetch(`https:&#x2F;&#x2F;stats.shroomkingdom.net&#x2F;mainnet&#x2F;score-query?account_id=${value}`);
+    await new Promise(resolve =&gt; setTimeout(resolve, 1000));
+    syncing = false;
     if (!res.ok) return;
     const json = await res.json();
-    if (json.length === 0) return;
+    if (json.length === 0) {
+      inputCreated.src = &quot;images&#x2F;error.svg&quot;
+      inputStaked.src = &quot;images&#x2F;error.svg&quot;
+      inputLevel.src = &quot;images&#x2F;error.svg&quot;
+      inputOk.src = &quot;images&#x2F;error.svg&quot;
+      return;
+    }
     const { created_at_block_timestamp, stake, level: levelRes } = json[0];
-    console.log(created_at_block_timestamp, stake, levelRes);
     if (created_at_block_timestamp) {
       createdAt = new Date(created_at_block_timestamp &#x2F; 1000000);
       createdBefore = createdAt.valueOf() &lt;= createdBeforeThreshold;
@@ -107,32 +124,36 @@ Based on the level you have reached, more tokens will be directly dropped to you
     level = levelRes;
     ok = createdBefore &amp;&amp; stakedOnce &amp;&amp; levelReached;
     if (createdBefore) {
-      const inputOk = document.querySelector(&#x27;#check-created&#x27;);
-      inputOk.src = &quot;images&#x2F;check.svg&quot;
+      inputCreated.src = &quot;images&#x2F;check.svg&quot;
+    } else {
+      inputCreated.src = &quot;images&#x2F;error.svg&quot;
     }
     if (stakedOnce) {
-      const inputOk = document.querySelector(&#x27;#check-stake&#x27;);
-      inputOk.src = &quot;images&#x2F;check.svg&quot;
+      inputStaked.src = &quot;images&#x2F;check.svg&quot;
+    } else {
+      inputStaked.src = &quot;images&#x2F;error.svg&quot;
     }
     if (levelReached) {
-      const inputOk = document.querySelector(&#x27;#check-level&#x27;);
-      inputOk.src = &quot;images&#x2F;check.svg&quot;
+      inputLevel.src = &quot;images&#x2F;check.svg&quot;
+    } else {
+      inputLevel.src = &quot;images&#x2F;error.svg&quot;
     }
     if (ok) {
-      const inputOk = document.querySelector(&#x27;#check-ok&#x27;);
       inputOk.src = &quot;images&#x2F;check.svg&quot;
+    } else {
+      inputOk.src = &quot;images&#x2F;error.svg&quot;
     }
   }
 &lt;&#x2F;script&gt;
 &lt;p&gt;&lt;label&gt;Your NEAR account name: &lt;&#x2F;label&gt;
 &lt;input class=&quot;input&quot; id=&quot;near-name&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;button class=&quot;check primary button&quot; onclick=&quot;onClick()&quot;&gt;
-  &lt;img id=&quot;check-ok&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;
+  &lt;img id=&quot;check-ok&quot; src=&quot;images&#x2F;pending.svg&quot; &#x2F;&gt;
   Check eligibility
 &lt;&#x2F;button&gt;
-&lt;p&gt;&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-created&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Created before 2021-10-01&lt;&#x2F;label&gt;
-&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-stake&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Has staked at least once (directly or via Metapool)&lt;&#x2F;label&gt;
-&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-level&quot; src=&quot;images&#x2F;error.svg&quot; &#x2F;&gt;Has reached level 3&lt;&#x2F;label&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-created&quot; src=&quot;images&#x2F;pending.svg&quot; &#x2F;&gt;Created before 2021-10-01&lt;&#x2F;label&gt;
+&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-stake&quot; src=&quot;images&#x2F;pending.svg&quot; &#x2F;&gt;Has staked at least once (directly or via Metapool)&lt;&#x2F;label&gt;
+&lt;label class=&quot;label&quot;&gt;&lt;img id=&quot;check-level&quot; src=&quot;images&#x2F;pending.svg&quot; &#x2F;&gt;Has reached level 3&lt;&#x2F;label&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;What&#x27;s special about this airdrop is, that you don&#x27;t have to do anything to receive it.
 We will just drop it into your wallet via a DAO vote.
 You just have to make sure to be eligible.
