@@ -27,9 +27,9 @@ images = [
   "https://cdnb.artstation.com/p/assets/images/images/004/570/299/large/daniel-bogni-super-mario-world.jpg?1484662771"
 ]
 due_date = "2021-09-30"
-budget = "120 SHRM + x NEAR (from OWS)"
-assignee = ""
-completed = false
+budget = "120 SHRM + 100$ converted to NEAR (from OWS)"
+assignee = "CHIBIGENIX"
+completed = true
 
 [extra.tasks.1]
 skills = ["Graphics Design"]
@@ -50,7 +50,7 @@ tasks = [
 ]
 images = ["m1-mdl.png"]
 due_date = "2021-12-31"
-budget = "150 SHRM + x NEAR (from OWS)"
+budget = "150 SHRM + 130$ converted to NEAR (from OWS)"
 assignee = ""
 completed = false
 
@@ -73,7 +73,7 @@ tasks = [
 ]
 images = ["m3-mdl.png"]
 due_date = "2021-12-31"
-budget = "175 SHRM + x NEAR (from OWS)"
+budget = "175 SHRM + 180$ converted to NEAR (from OWS)"
 assignee = ""
 completed = false
 
@@ -96,7 +96,7 @@ tasks = [
 ]
 images = ["mw-mdl.png"]
 due_date = "2021-12-31"
-budget = "200 SHRM + x NEAR (from OWS)"
+budget = "200 SHRM + 230$ converted to NEAR (from OWS)"
 assignee = ""
 completed = false
 +++
