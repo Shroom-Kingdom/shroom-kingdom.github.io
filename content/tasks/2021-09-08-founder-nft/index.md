@@ -21,13 +21,10 @@ tasks = [
   "design the NFT art"
 ]
 images = [
-  "https://cdna.artstation.com/p/assets/images/images/009/537/324/medium/rotann-colyn-image1.jpg?1519568749",
-  "https://cdnb.artstation.com/p/assets/images/images/009/537/305/large/rotann-colyn-sylvain-sarrailh.jpg?1519568652",
-  "https://s1.1zoom.me/big0/638/Monsters_super_mario_art_461321.jpg",
-  "https://cdnb.artstation.com/p/assets/images/images/004/570/299/large/daniel-bogni-super-mario-world.jpg?1484662771"
+  "near-chan-builder.webp"
 ]
 due_date = "2021-09-30"
-budget = "120 SHRM + 100$ converted to NEAR (from OWS)"
+budget = "500 SHRM + 100$ converted to NEAR (from OWS)"
 assignee = "CHIBIGENIX"
 completed = true
 

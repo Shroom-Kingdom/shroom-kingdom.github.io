@@ -18,6 +18,11 @@
       <li> {{ li }}</li>
       {% endfor %}
     </ul>
+    {% if task.completed %}
+    <div class="center">
+      <b>Task completed</b> <img class="icon" src="images/check.svg" />
+    </div>
+    {% endif %}
     {% if task.images %}
     {% for image in task.images %}
     {% if image is starting_with("http") %}
